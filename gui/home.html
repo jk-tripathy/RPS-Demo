@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Demo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Pattern Prediction using LSTM and ReLU Ensemble</span>
+    </nav>
+    <div class="mainBody">
+        <div class="player">
+            <p class="user">Player</p>
+            <div class='options'>
+                <div class="but" >
+                    <img id="p_r" src="assets/rock_bw.jpg" width="200" height="200" onmouseover="this.src='assets/rock.jpg'" onmouseout="this.src='assets/rock_bw.jpg'"/>
+                </div>
+                <div class="but">
+                    <img id="p_p" src="assets/paper_bw.jpg" width="200" height="200" onmouseover="this.src='assets/paper.jpg'" onmouseout="this.src='assets/paper_bw.jpg'"/>
+                </div>
+                <div class="but">
+                    <img id="p_s" src="assets/sci_bw.jpg" width="200" height="200" onmouseover="this.src='assets/sci.jpg'" onmouseout="this.src='assets/sci_bw.jpg'"/>
+                </div>
+            </div>
+            <p class="score" id="p_score">test</p>
+        </div>
+        <div class="bar"></div>
+        <div class='comp'>
+            <p class="user">Computer</p>
+            <div class="options">
+                <div class="but">
+                    <img id="c_r" src="assets/rock_bw.jpg" width="200" height="200" />
+                </div>
+                <div class="but">
+                    <img id="c_p" src="assets/paper_bw.jpg" width="200" height="200" />
+                </div>
+                <div class="but">
+                    <img id="c_s" src="assets/sci_bw.jpg" width="200" height="200" />
+                </div>
+            </div>
+            <p class="score" id='c_score'>test</p>
+        </div>
+    </div>
+    
+</body>
+</html>
