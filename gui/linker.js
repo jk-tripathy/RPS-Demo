@@ -51,7 +51,7 @@ function get_pred() {
     if(flag>=4){
         x_temp = []
     }
-    if(x_temp.length > 18){
+    if(x_temp.length >= 18){
         x_temp.pop(0)
         x_temp.pop(0)
     }
